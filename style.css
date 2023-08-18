@@ -1,0 +1,486 @@
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 860px) {
+    .container {
+        max-width: 860px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        margin: auto;
+    }
+}
+
+nav ul li {
+    transition: .2s ease-in-out;
+    padding: 5px;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid #96BD0D;
+}
+
+nav ul li .nav-span {
+    border-bottom: none;
+}
+
+nav ul .nav-span:hover {
+    border-bottom: none;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #D4D4D4;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-1 {
+    transition: .4s ease-in-out;
+}
+
+.btn,
+.btn-0
+{
+    transition: .3s ease-in-out;
+    padding: 20px;
+}
+.btn-0:hover,
+.btn-1:hover,
+.btn:hover {
+    background-color: #96BD0D;
+}
+
+.learn-t {
+    transition: .4s ease-in-out;
+}
+
+.learn-t:hover {
+    color: #96BD0D;
+}
+
+.img-1 {
+    transition: .4s ease-in-out;
+}
+
+.img-1:hover {
+    transform: scale(1.05);
+}
+
+.gall-a {
+    transition: .4s ease-in-out;
+    text-align: right;
+    padding-right: 125px;
+}
+
+.gall-a:hover {
+    color: #96BD0D;
+}
+
+.an {
+    font-size: 14px;
+}
+
+.gall-ab {
+    transition: .4s ease-in-out;
+    text-align: right;
+    padding-right: 170px;
+}
+
+.gall-ab:hover {
+    color: #96BD0D;
+}
+
+.leading-11 {
+    line-height: 3.5rem;
+}
+
+.info-a {
+    text-decoration: underline;
+    color: #96BD0D;
+}
+
+.div .ss-img {
+    width: 500px;
+    height: 330px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div .div-img {
+    width: 500px;
+    height: 330px;
+}
+
+.p-down:hover .down-list {
+    display: block;
+    transition: .4s ease-in-out;
+}
+
+.p-down .down-list {
+    background-color: black;
+    color: white;
+    display: none;
+    width: max-content;
+    top: auto;
+    left: 0px;
+    margin: auto;
+    /* margin-left: 0px; */
+    margin-top: 0px;
+    min-width: 10em;
+    max-width: 1000px;
+    position: absolute;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(85, 85, 85);
+    padding: 8px;
+}
+
+.flag img {
+    cursor: pointer;
+}
+
+.gall .gall-div-0 .gal-div .amn {
+padding: 10px;
+}
+
+.p-down {
+    position: relative;
+    transition: .4s ease-in-out;
+}
+.numb-h3 {
+    padding: 3.5rem;
+    width: 200px;
+    height: 200px;
+}
+.numb-h {
+    width: 200px;
+    height: 200px;
+}
+.numb-div .small-s {
+    height: 270px;
+}
+
+
+@media (max-width: 1000px) {
+    .numb .numb-div {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .ab-u {
+        text-align: center;
+        margin: auto;
+    }
+    .s-logo {
+        text-align: center;
+        margin: auto;
+    }
+    .last .last-div {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .last-img {
+        text-align: center;
+        margin: auto;
+    }
+    .last-menu {
+        display: block;
+    }
+    .last-menu .last-f {
+        display: none;
+    }
+    .last-menu .last-p {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 860px) {
+    .gall .gall-div-0 .gall-div-1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .r-nav {
+        display: none;
+    }
+    .l-nav {
+        text-align: left;
+    }
+    .first-m .f-page {
+        display: block;
+        text-align: left;
+    }
+    .f-page .divs {
+        width: 100%;
+    }
+    .f-page button {
+        padding-bottom: 20px;
+    }
+    .s .s-page {
+        display: block;
+        text-align: left;
+    }
+    .p .product {
+        display: block;
+        text-align: left;
+    }
+    .learn-t {
+        display: none;
+    }
+    .s-page .wid {
+        width: 90%;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+    .btn-p {
+        margin: auto;
+        margin-top: 20px;
+        transition: .4s ease;
+    }
+    .m-pad .pad {
+        display: block;
+    }
+    .gall .gal-div {
+        display: block;
+        text-align: center;
+    }
+    .img-1 {
+        margin: auto;
+    }
+    .gall-a {
+        text-align: center;
+    }
+    .oss .oss-h {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .numb .numb-div {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .last .last-div {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .s-logo {
+        text-align: center;
+        margin: auto;
+    }
+    .ab-u {
+        text-align: center;
+        margin: auto;
+    }
+    .last-img {
+        text-align: center;
+        margin: auto;
+    }
+    .last-menu {
+        display: block;
+    }
+    .last-menu .last-f {
+        display: none;
+    }
+    .last-menu .last-p {
+        text-align: center;
+        margin: auto;
+    }
+    /* .numb-div .numb-h {
+        padding: 2rem;
+        width: 30%;
+    } */
+}
+
+@media (max-width: 600px) {
+    .btn-p {
+        font-size: 16px;
+        width: auto;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 464px) {
+    .pad .btn-p {
+        font-size: 14px;
+        padding: 14px;
+        width: auto;
+    }
+    .gall-a {
+        padding: 0;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .numb .numb-div {
+        padding: 0;
+    }
+    body .numb {
+        padding: 14px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .gall-ab{
+        padding: 0;
+        text-align: left;
+        font-size: 12px;
+    }
+    .gall-abc{
+        font-size: 12px;
+    }
+    .m-pad {
+        margin: 40px;
+    }
+    .oss {
+        padding-top: 20px;
+    }
+    body .f-page {
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .nav-div .o-nav {
+        padding: 24px;
+    }
+    .s .s-page{
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .s .s-page .btn-0{
+        margin-bottom: 10px;
+    }
+    .p .product {
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    body .m-pad {
+        margin: 14px;
+    }
+    .m-pad .pad .pad-p {
+        text-align: left;
+    }
+    .m-pad .pad {
+    padding: 14px;
+    }
+    .gall {
+        padding-bottom: 0;
+    }
+    .gall .gall-div-0 {
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .gall .gall-div-0 .gal-div .amn {
+        padding: 10px;
+    }
+    body .oss {
+        padding: 24px;
+        padding-bottom: 40px;
+    }
+    .oss .oss-h {
+        font-size: 40px;
+    }
+    .last {
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    body .last .last-div .wid-pro {
+        width: auto;
+    }
+    .hr-p {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .numb-div .small-s .numb-h .numb-h3{
+        padding: 1.5rem;
+        width: 150px;
+        height: 150px;
+    }
+    .numb-div .small-s .numb-h {
+        width: 150px;
+        height: 150px;
+    }
+    .numb-div .small-s {
+        gap: 20px;
+        margin-bottom: 30px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+    <header>
+        <div class="bg-neutral-200">
+            <ul class="list-none container flex justify-end items-center gap-5 p-5 text-sm">
+                <li class="hover:text-blue-700"><a href="#">Vacancies</a></li>
+                <li class="hover:text-blue-700"><a href="#">Contact</a></li>
+                <li>
+                    <div class="flag">
+                        <a href="#">
+                            <img src="https://aerox.life/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.svg">
+                        </a>
+                        <a href="#">
+                            <img src="https://aerox.life/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="flex justify-center items-center nav-div">
+            <nav class="flex justify-between items-center h-20 p-20 pb-0 pt-0 container o-nav">
+                <div class="l-nav"><img class="cursor-pointer  w-32" src="https://aerox.life/wp-content/uploads/aerox-logo.svg"></div>
+                <div class="r-nav">
+                    <ul class="flex justify-between items-center list-none p-5 gap-5">
+                        <li class="p-down">
+                            <a href="#" class="m-nav">Technology <i class="fas fa-chevron-down pl-2 text-xs"></i></a>
+                            <ul class="down-list text-center p-4">
+                                <li>Further Development</li>
+                                <li>Sustainable Odour Control</li>
+                            </ul>
+                        </li>
+                        <li class="p-down"><a href="#">Method <i class="fas fa-chevron-down pl-2 text-xs "></i></a>
+                            <ul class="down-list text-center">
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                            </ul>
+                        </li>
+                        <li class="p-down"><a href="#">Product <i class="fas fa-chevron-down pl-2 text-xs "></i></a>
+                            <ul class="down-list text-center">
+                                <li>Aerox-Injector</li>
+                                <li>Aerox ROC</li>
+                            </ul>
+                        </li>
+                        <li class="p-down"><a href="#">Industries <i class="fas fa-chevron-down pl-2 text-xs "></i></a>
+                            <ul class="down-list text-center">
+                                <li>Animal Food </li>
+                                <li>Aqua Food</li>
+                                <li>Pet Food</li>
+                                <li>Tabacoo</li>
+                                <li>Rubber</li>
+                                <li>Oil Seed</li>
+                                <li>Food</li>
+                                <li>Other Industries</li>
+                            </ul>
+                        </li>
+                        <li class="cas"><a href="#">Cases</a></li>
+                        <li class="p-down"><a href="#">About us <i class="fas fa-chevron-down pl-2 text-xs "></i></a>
+                            <ul class="down-list text-center">
+                                <li>Team aerox</li>
+                                <li>Distrubiteurs</li>
+                            </ul>
+                        </li>
+                        <li class="nav-span "> <span class="h-9 border-2 border-black w-1"></span></li>
+                        <li><i class="fa-solid fa-magnifying-glass nav-glass"></i></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="menu-toggle"><i class="fas fa-bars" aria-hidden="true"></i></div>
+        </div>
+    </header>
+    <section class="bg-neutral-300 first-m">
+        <div class=" bg-bottom bg-cover bg-no-repeat h-full" style="background-image: url('https://aerox.life/wp-content/uploads/hero-homepage.png');">
+            <div class="container flex justify-center items-center p-20 pb-40 gap-20 f-page">
+                <div class="text-white w-3/5 divs">
+                    <h2 class="text-5xl font-semibold pb-5">Frisse lucht voor uw omgeving</h2>
+                    <p class="pb-3">Aerox helpt fabrieken om geuren afkomstig uit productieprocessen te neutraliseren. Zodat u voldoet aan de industriële wetten en normen. En nog belangrijker: uw omgeving ervaart geen stankoverlast meer. Wij garanderen frisse lucht en
+                        tevreden buren.</p>
+                    <button class="bg-blue-600 p-4 hover:bg-blue-950 transition duration-700 btn"><a href="#">Meer over onze technologie? <i class="fas fa-arrow-right pl-3"></i></a></button>
+                </div>
+                <div class="bg-white p-10 rounded-xl">
+                    <p class="text-base font-bold pb-3">De voordelen van de Aerox-Injector</p>
+                    <ul class="text-xs leading-loose">
+                        <li><span class="font-semibold pr-2">&check;</span> Zeer effectieve geurbestrijding</li>
+                        <li><span class="font-semibold pr-2">&check;</span> Geschikt voor grote luchtvolumes (tot 250.000 m3/h)</li>
+                        <li><span class="font-semibold pr-2">&check;</span> Lage ‘Total Cost of Ownership’</li>
+                        <li><span class="font-semibold pr-2">&check;</span> Geen water , gas of chemicaliën nodig. Geen afval!</li>
+                        <li><span class="font-semibold pr-2">&check;</span> Best verkrijgbare technologie op de markt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container p-10">
+            <h3 class="text-2xl text-center font-bold pb-5">Satisfied partners of Aerox</h3>
+            <div class="swiper mSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-dairygold.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-grobest.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-jonker-petfood.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-mitas.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-PCG.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-petfood-run.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-rothkotter.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-vobra.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-BAT.png"></div>
+                    <div class="swiper-slide"><img src="https://aerox.life/wp-content/uploads/logo-AAK.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s">
+        <div class="s-page flex justify-center items-center container p-20 gap-20 ">
+            <div class="w-2/3 wid">
+                <h2 class="text-5xl font-semibold pb-3">Who are we?</h2>
+                <p class="text-sm leading-loose pb-2">Aerox has more than 30 years of experience in odor control. The company was founded in 1974 as a specialist in the development and production of dust filters and air scrubbers. We were then called Jongerius Aerob. We now focus solely on
+                    our in-house developed Aerox injector, which is based on cold-plasma technology. Our distribution network reaches worldwide.</p>
+                <p class="text-sm leading-loose pb-5">We have experience with many different industries and their specific processes, characteristics and requirements. In addition, we have now accumulated extensive knowledge of the source and composition of odors in various industries and
+                    know the scientific tools and processes to investigate the complexities of each unique situation. We also know all the ins and outs of relevant international laws and regulations and their requirements.</p>
+                <button class="p-5 bg-blue-700 text-white hover:bg-blue-950 transition duration-700 btn-0"><a href="#">Read more about us<i class="fas fa-arrow-right pl-2"></i></a></button>
+                <button class="p-5 bg-blue-950 text-white hover:bg-blue-700 transition duration-700 btn"><a href="#">What we do<i class="fas fa-arrow-right pl-2"></i></a></button>
+            </div>
+            <div><img class="w-full h-full" src="https://aerox.life/wp-content/uploads/team-foto-aerox-768x512.jpg.webp"></div>
+        </div>
+    </section>
+    <div class="bg-blue-950 text-white p">
+        <div class="container flex justify-center items-center product p-20 gap-20">
+            <div>
+                <h2 class="text-5xl pb-5 font-semibold ">Our products</h2>
+                <img class="pb-5" src="https://aerox.life/wp-content/uploads/aerox-injector-productfoto-768x513.jpg.webp">
+                <h3 class="text-3xl font-semibold pb-5">Aerox-Injector</h3>
+                <p class="text-sm leading-4 pb-5">The Aerox-Injector is an innovative odor control system based on injection technology that is installed at the end of a production process or in the chimney. Already more than 250 plants around the world benefit from our proven effective
+                    technology.
+                </p>
+                <button class="btn-1 p-5 bg-blue-600 my-3"><a href="#">Read more Aerox-Injector <i class="fas fa-arrow-right pl-4"> </i></a></button>
+            </div>
+            <div>
+                <p class="text-right pb-5">
+                    <a href="#" class="learn-t">Learn more about our technology <i class="fas fa-arrow-right pl-4 pb-5"></i></a></p>
+                <img class="pb-5" src="https://aerox.life/wp-content/uploads/aerox-RCO-productfoto-768x513.jpg.webp">
+                <h3 class="text-3xl font-semibold pb-5">Aerox RCO</h3>
+                <p class="text-sm leading-4 pb-5">De Aerox RCO lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet massa condimentum, malesuada metus non, pellentesque mauris. Quisque a elementum lectus. Nam consequat maximus dui, sed tempus est blandit vitae.</p>
+                <button class="bg-white text-black p-5 "><a href="#">Online soon<i class="fas fa-arrow-right pl-4"></i></a></button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-blue-600 m-20 text-white m-pad">
+        <div class="container p-14 flex justify-center items-center gap-10 pad">
+            <p class="text-xl font-semibold pad-p">Also discover how we solve global odor problems with a <i>durable</i> and <i>reliable</i> product?</p>
+            <button class="border-white border-2 p-5 w-72 btn-p">Make an appointment now <i class="fas fa-arrow-right pl-3"></i></button>
+        </div>
+    </div>
+    <div class="container pb-10 gall">
+        <h2 class="text-5xl font-semibold text-center pt-3">Industries we serve</h2>
+        <div class="p-10 gall-div-0"><div class="gall-div-1">
+            <div class="flex justify-center items-center gap-5  gal-div">
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/diervoer-tile-1-300x300.jpg.webp" class="img-1">
+                    <h3 class="text-center text-xl amn">Animal Feed</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/vissenvoer-tile-1-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">Fish Food</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/huisdierenvoer-tile-1-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">Pet food</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/tabak-tile-1-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">TOBACCO</h3>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-5 pb-10 gal-div">
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/rubber-tile-1-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">RUBBER</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/oliehoudende-zaden-tile-1-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">OILSEEDS</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/voeding-tile-1-300x298.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">Nutrition</h3>
+                </div>
+                <div>
+                    <img src="https://aerox.life/wp-content/uploads/overige-industrieen-tile-300x300.jpg.webp" class="img-1 ">
+                    <h3 class="text-center text-xl amn">Other Industries</h3>
+                </div>
+            </div>
+        </div>
+            <p class="gall-a"><a href="#">Learn more about the industries in which we operate <i class="fas fa-arrow-right text-lg gall-abc pl-3"></i></a></p>
+        </div>
+    </div>
+    <div class="container p-20 oss">
+        <h2 class="text-5xl font-semibold pb-10 oss-h">Our success stories</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="div-img" src="https://aerox.life/wp-content/uploads/headerafbeelding-vandeputte_1602161458_jpg.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Venduputte</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="div-img" src="https://aerox.life/wp-content/uploads/rothkotter_1599646305_jpg.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Rothkotter</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="div-img" src="https://aerox.life/wp-content/uploads/petfood-run-header_1602141490_jpeg.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Petfood Run</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="div-img" src="https://aerox.life/wp-content/uploads/pet_food_industries_1599646681_jpg.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Pet Food Industries</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="div-img" src="https://aerox.life/wp-content/uploads/1_1601890795_jpg-1.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Mitas</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="div">
+                        <img class="ss-img" src="https://aerox.life/wp-content/uploads/jonker-headerafbeelding_1602152361_jpg.webp">
+                        <h3 class="text-2xl text-left pt-3 pb-3">Jonker Petfood</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="bg-blue-950 p-36 text-white text-center numb">
+        <div class="container">
+            <h2 class="text-5xl pb-10 font-semibold">The numbers behind Aerox</h2>
+            <div class="flex flex-wrap justify-center items-start p-10 pb-10 gap-10 numb-div ">
+                <div class="flex justify-center items-start gap-10 small-s">
+                    <div class="numb-h">
+                        <h3 class="border-4 border-white mb-5 rounded-full numb-h3"><span class="text-5xl">12</span><br>million<br>m³/hour</h3>
+                        <p class="pb-3">Cleaned air by  all Aerox injectors</p>
+                    </div>
+                    <div class="numb-h">
+                        <h3 class="border-4 border-white mb-5 rounded-full numb-h3"><span class="text-5xl pb-5">6 </span><br>continents </h3>
+                        <p class="pb-3">Where Aerox successful industrial  odor reduction provides</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-start gap-10 small-s">
+                    <div class="numb-h">
+                        <h3 class="border-4 border-white mb-5 rounded-full numb-h3"><span class="text-5xl pb-5">30</span><br>plus</h3>
+                        <p class="pb-3">Distributors and service  centers worldwide</p>
+                    </div>
+                    <div class="numb-h">
+                        <h3 class="border-4 border-white mb-5 rounded-full numb-h3"><span class="text-5xl pb-5">30</span><br>year</h3>
+                        <p>Experience with cold plasma  technology as inventor</p>
+                    </div>
+                </div>    
+            </div>
+            <p class="gall-ab"> <a href="#"> Learn more about the industries in which we operate <i class="fas fa-arrow-right text-lg pl-3 gall-abc"></i></a></p>
+        </div>
+    </div>
+    <div class="container p-10 pt-20 pb-20 last">
+        <div class="flex justify-center gap-10 pb-10 last-div">
+            <div class="leading-11 w-80 wid-pro">
+                <a href="#">
+                    <img class="w-64 h-20 last-img pb-10" src="https://aerox.life/wp-content/uploads/aerox-logo.svg">
+                </a>
+                <p class="leading-8 an">Aerox has more than 30 years of experience in odor control. Our distribution network reaches worldwide.</p>
+                <p class="leading-8 pt-10 an">Utrechtseweg 4a <br> 3451 GG Vleuten</p>
+                <div class="leading-8 pt-6 pb-6">
+                    <a href="#" class="info-a">030 677 91 80</a> <br>
+                    <a href="#" class="info-a">info@aerox.nl</a>
+                </div>
+                <h3 class="text-2xl font-bold pb-5 text-blue-900">Stay Informed</h3>
+                <div class="flex gap-5">
+                    <i class="text-2xl s-logo fab fa-twitter"></i>
+                    <i class="text-2xl s-logo fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="leading-11 ">
+                <h3 class="text-lime-500 text-3xl pb-10">
+                    Technology
+                </h3>
+                <p class="an">Further development</p>
+                <p class="an">Sustainability</p>
+            </div>
+            <div class="leading-11 ">
+                <h3 class="text-lime-500 text-3xl pb-10"> Methodology</h3>
+                <p class="an">After Sales & Maintenance</p>
+                <p class="an">Commissioning</p>
+                <p class="an">On-site testing</p>
+            </div>
+            <div class="leading-11 w-36 ab-u">
+                <h3 class="text-lime-500 text-3xl pb-10">About us</h3>
+                <p class="an">Team Aerox</p>
+                <p class="an">Distrubiteurs</p>
+            </div>
+            <div class="leading-11 ">
+                <h3 class="text-lime-500 text-3xl pb-10">Vacancies</h3>
+                <p class="an">International Sales Manager</p>
+                <p class="an">Junior Service Engineer</p>
+                <p class="an">Employee Office Support</p>
+                <p class="an">Stagiar Strategy & Finance</p>
+            </div>
+        </div>
+        <div class="hr-p"><hr></div>
+        <div class="flex justify-between last-menu">
+            <div class="last-p"> © 1974 – 2023 – Aerox b.v. </div>
+            <div>
+                <ul class="flex justify-center items-center gap-5 last-f">
+                    <li><a href="@">Sitemap</a></li>
+                    <li><a href="@">Colofon</a></li>
+                    <li><a href="@">Cookie Policy</a></li>
+                    <li><a href="@">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.menu-toggle').click(function() {
+                $('.r-nav').toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mSwiper", {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 4,
+                },
+                520: {
+                    slidesPerView: 6,
+                },
+                950: {
+                    slidesPerView: 5,
+                },
+            },
+        });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                620: {
+                    slidesPerView: 2,
+                },
+                1050: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
